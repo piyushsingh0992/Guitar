@@ -1,0 +1,35 @@
+.App {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+
+  background-image: url("images/circle.png");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: 800px 800px;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+}
+
+hr {
+  border: 15px solid white;
+  margin: 1.5vw 0vw;
+  transition: all 0.1s ease-in;
+}
+
+.playing {
+  border: 18px solid white;
+}
+
+@media only screen and (max-width: 600px) {
+  hr {
+    margin: 9vw 0vw;
+  }
+}
